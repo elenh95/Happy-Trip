@@ -1,0 +1,389 @@
+body 
+{
+    font-family: "Quicksand", sans-serif;
+}
+h1 
+{
+    text-transform: uppercase;
+}
+/*=================HOME=================*/
+html,
+body 
+{
+    height: 100%;
+    margin: 0;
+    line-height: 34px;
+}
+/*Landing Page*/
+#home-cover
+{
+    height: 100%;
+    background-image: url(../img/pool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home 
+{
+    height: 100%;
+}
+.navbar
+{
+    margin-bottom: 0;   
+}  
+#home-content-box
+{
+    height:100%;
+    width: 100%;
+    display: table;
+}
+#home-content-box-inner
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: auto;
+}
+#home-heading h1
+{
+     font-size=55px;
+     font-weight: 700;
+     margin: 10px 0 10px 0;
+     text-transform: uppercase;
+}
+#home-content-form 
+{
+    background-color: rgb(255,255,255,0.81);
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 120%;
+    align-items: center;
+    border-radius: 2%;
+}
+#container-fluid
+{
+    margin-bottom: auto;
+}
+#home-content-fields
+{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+#home-content-fields ul
+{  
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+}
+.city_li
+{
+    display: inline-block;
+}
+#cities
+{
+     width:158px; 
+     height: 40px;
+     margin-top:10%;
+}
+#rooms
+{
+     width:158px; 
+     height: 40px;
+     margin-top: 10%;
+}
+.btn
+{
+    border:10px;
+    background: orange;
+    margin-bottom: 4%;
+    text-align: center; 
+}
+/*Hotel_Results.php */
+
+/* Style the header */
+#header-content
+{
+    background: orange;
+    border-radius: 3PX;
+    height: 100%;
+    margin-right: 70%;
+    width: 60%;
+    text-align: center;
+    margin-left: 30%;
+}
+#header-content h1
+{
+    text-align: center;
+}
+#Rooms_Filtres
+{
+    border: 3px solid #0077CC;
+    width: 15%;
+    border-radius: 16px;
+    height: 35%;
+    line-height: 18px;
+    margin-left: 10%;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.More_Filtres_text h3
+{
+       background: #0077CC;
+       color:white;
+       margin-top:0;
+       border-radius: 6px;
+       width: 80%;
+       text-align: center;
+       margin-left: 6%;
+       margin-top:2%;
+}
+#sub_but 
+{
+    border:10px ;
+    background:red;
+    margin-bottom: 2%;
+    padding-right: 70px;
+    border-radius: 6%;
+}
+.hotel_result 
+{
+    float: left;
+    width: 100%;
+    height: 30%;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-right: 10%;
+}
+.slidecontainer
+{
+    width: 100%;
+}
+.slider 
+{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider:hover 
+{
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb 
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.hotel_result_pic 
+{
+    float:left;
+    width: 30%;
+    margin-left: 2%;
+}
+.hotel_result_pic img 
+{
+    height: 70%;
+    width: 90%;
+    padding-top: 15px;
+}
+.hotel_result_header 
+{
+    margin-right: auto;
+    margin-top: 15px;
+    margin-left:32%;
+}
+.price_guests
+{
+    display: inline-flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price_dv
+{
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    margin-left: 5%;
+}
+.guests_dv
+{
+    width: 30%;
+    text-align: right;
+    margin-right:5%;
+    display: inline-block; 
+}
+#but_Go_to_Room
+{
+    float:right;
+    margin-right:6%;
+}
+#wrapper 
+{
+    overflow: hidden; 
+}
+input[type=range] 
+{
+    tab-size:4px;
+    width:150px;
+}
+.HotRes
+{
+   float:right;
+    width: 60%;
+    margin-left: -200px;
+    margin-right: 150px;
+    
+  
+}
+footer p 
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #262626;
+    color: aliceblue;
+    display: block;
+    margin:0;
+}
+/*--Rooms.php Style in form with--*/ 
+.Big_Field
+{
+      
+      margin-left: 20%;
+      margin-right: 20%;
+}
+.header
+{
+    text-align:center;
+    background:orange;
+    margin-left:0;
+    margin-right:0;
+    margin-top:2%;
+    height:10%;
+    width: 80%;
+}
+.name_hotel h5
+{
+    float:left;
+    margin-left: 2%;
+    width:10%;
+    display: inline-block;
+}
+.area h5
+{
+    float:center;
+    width:10%;
+    display: inline-block;
+}
+.price h5
+{
+    float:left;
+    margin-right: 2%;
+    width:10%;
+    display: inline-block;
+}
+.Long_Description h4
+{
+    width: 80%;
+}
+.image_hotel img
+{
+    width:80%;
+    height: 50%;
+    margin-left:0%;
+    margin-right:0%;
+}
+#details_room
+{
+    text-align:center;
+    background:orange;
+    margin-left:0;
+    margin-right:0;
+    margin-top:2%;
+    height:10%;
+    width: 80%; 
+}
+#but_BookNow
+{
+    margin-right: 20%;
+    float: right;
+}
+#map 
+{
+        width:80%;
+        height: 40%;
+        border:0;
+        margin-left:0%;
+        margin-right:0%;
+}
+/* Double-color dashed line */
+.Room_Page_hr
+{
+  border: 0;
+  width:80%;
+  background-color: #fff;
+  border-top: 1px dashed #8c8c8c;
+}
+.btn1
+{
+    border:10px ;
+    background: red;
+    margin-bottom: 4%;
+    text-align: center;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    align-content: center;
+}
+.checked
+{
+    color: orange;
+}
+/*Css for User_Profile page*/
+
+#FAV_REV
+{
+    float: left;
+    width: 15%;
+    border-radius: 16px;
+    height: 35%;
+    line-height: 18px;
+    margin-left: 10%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+#FAV_REV h3
+{
+    color: red;
+}
+
+
+
+
+
+
+
